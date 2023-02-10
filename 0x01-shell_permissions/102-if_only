@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty $(find -name hello -user guillaume)
+chown -h vincent:staff _hello
