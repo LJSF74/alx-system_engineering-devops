@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | sort -M | tail -n 10 | cut -b 42-
+find ./ -type f -printf "%t - %p\n" | sort -nr | head -n 10 | cut -b 41-
