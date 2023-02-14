@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -l | sort -M | tail -n 10 | cut -b 42-
