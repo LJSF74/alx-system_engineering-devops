@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | sort -M | head -n 10 | cut -b 42-
+ls -l | sort -M | tail -n 10 | cut -b 42-
